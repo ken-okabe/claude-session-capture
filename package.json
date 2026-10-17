@@ -1,0 +1,14 @@
+{
+  "name": "claude-session-capture",
+  "version": "0.1.0",
+  "description": "Auto-scroll and capture the visible text of a claude.ai session after you log in",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node test/merge-sim.js && node test/clean-output.js"
+  },
+  "devDependencies": {
+    "electron": "^44.7.0"
+  }
+}
